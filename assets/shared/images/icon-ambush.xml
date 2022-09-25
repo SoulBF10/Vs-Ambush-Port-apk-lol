@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="icon-ambush.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lose0000" x="50" y="50" width="134" height="162" frameX="-4" frameY="-1" frameWidth="140" frameHeight="167"/>
+	<SubTexture name="lose0001" x="234" y="50" width="134" height="164" frameX="-1" frameY="0" frameWidth="140" frameHeight="167"/>
+	<SubTexture name="lose0002" x="418" y="50" width="134" height="161" frameX="-6" frameY="0" frameWidth="140" frameHeight="167"/>
+	<SubTexture name="lose0003" x="602" y="50" width="135" height="162" frameX="-4" frameY="-2" frameWidth="140" frameHeight="167"/>
+	<SubTexture name="lose0004" x="787" y="50" width="136" height="162" frameX="0" frameY="-5" frameWidth="140" frameHeight="167"/>
+	<SubTexture name="lose0005" x="787" y="50" width="136" height="162" frameX="0" frameY="-4" frameWidth="140" frameHeight="167"/>
+	<SubTexture name="normal0000" x="50" y="264" width="113" height="140" frameX="0" frameY="-1" frameWidth="113" frameHeight="141"/>
+	<SubTexture name="normal0001" x="213" y="264" width="112" height="140" frameX="0" frameY="-1" frameWidth="113" frameHeight="141"/>
+	<SubTexture name="normal0002" x="375" y="264" width="103" height="141" frameX="-7" frameY="0" frameWidth="113" frameHeight="141"/>
+	<SubTexture name="normal0003" x="528" y="264" width="103" height="141" frameX="-7" frameY="0" frameWidth="113" frameHeight="141"/>
+	<SubTexture name="normal0004" x="681" y="264" width="105" height="139" frameX="-7" frameY="-1" frameWidth="113" frameHeight="141"/>
+	<SubTexture name="normal0005" x="681" y="264" width="105" height="139" frameX="-7" frameY="-1" frameWidth="113" frameHeight="141"/>
+</TextureAtlas>
