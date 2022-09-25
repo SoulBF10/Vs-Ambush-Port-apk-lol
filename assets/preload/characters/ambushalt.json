@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 30,
+			"name": "jumescare",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ambush_alt",
+	"position": [
+		-450,
+		-650
+	],
+	"healthicon": "ambush",
+	"flip_x": false,
+	"healthbar_colors": [
+		102,
+		255,
+		204
+	],
+	"camera_position": [
+		-140,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
