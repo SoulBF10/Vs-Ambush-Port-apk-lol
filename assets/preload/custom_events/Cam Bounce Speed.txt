@@ -1,0 +1,4 @@
+Changes the speed and intensity
+in which the camera bounces.
+Value 1: Speed
+Value 2: Intensity

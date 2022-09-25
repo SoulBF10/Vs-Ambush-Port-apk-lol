@@ -1,0 +1,3 @@
+Makes your camera zoom do a funny bounce :D 
+Value 1: Cam zoom
+Value 2: Length
