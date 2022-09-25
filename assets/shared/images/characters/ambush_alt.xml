@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ambush_alt.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="come0000" x="50" y="50" width="969" height="902"/>
+	<SubTexture name="come0001" x="50" y="50" width="969" height="902"/>
+	<SubTexture name="come0002" x="1069" y="50" width="969" height="902"/>
+	<SubTexture name="come0003" x="1069" y="50" width="969" height="902"/>
+	<SubTexture name="come0004" x="2088" y="50" width="969" height="902"/>
+	<SubTexture name="come0005" x="2088" y="50" width="969" height="902"/>
+	<SubTexture name="come0006" x="3107" y="50" width="969" height="902"/>
+	<SubTexture name="come0007" x="3107" y="50" width="969" height="902"/>
+	<SubTexture name="come0008" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0009" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0010" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0011" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0012" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0013" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0014" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0015" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0016" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0017" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0018" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="come0019" x="4126" y="50" width="969" height="902"/>
+	<SubTexture name="idlee0000" x="5145" y="50" width="110" height="80"/>
+	<SubTexture name="jumescare0000" x="5305" y="50" width="1912" height="2028"/>
+	<SubTexture name="jumescare0001" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0002" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0003" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0004" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0005" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0006" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0007" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0008" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0009" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0010" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0011" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0012" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0013" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0014" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0015" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0016" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0017" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0018" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0019" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0020" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0021" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0022" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0023" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0024" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0025" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0026" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0027" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0028" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0029" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0030" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0031" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0032" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0033" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0034" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0035" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0036" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0037" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0038" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0039" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0040" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0041" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0042" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0043" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0044" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0045" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0046" x="2012" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0047" x="3974" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0048" x="5936" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+	<SubTexture name="jumescare0049" x="50" y="2128" width="1912" height="1942" frameX="0" frameY="-43" frameWidth="1912" frameHeight="2028"/>
+</TextureAtlas>
