@@ -1,13 +1,21 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build
+name: buildAndroid
 
-# Controls when the action will run.
-on: [push,pull_request,workflow_dispatch]
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
-# A workflow run is made up of one or 69 jobs that can run sequentially or in parallel
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow dsoent contain a single job called "build"
+  # This workflow contains a single job called "build"
   buildAndroid:
     name: buildAndroid
     runs-on: ubuntu-latest
@@ -37,20 +45,22 @@ jobs:
       - name: Install Haxelib
         run: |
           haxelib setup ~/haxelib
-          haxelib --quiet install hxcpp > /dev/null
-          haxelib --quiet install lime
-          haxelib --quiet install openfl
+          haxelib install hxcpp > /dev/null
+          haxelib install lime 7.9.0
+          haxelib install hxCodec
+          haxelib install openfl 9.1.0
           haxelib --never install flixel
           haxelib run lime setup flixel
-          haxelib --quiet install flixel-tools
-          haxelib --quiet install flixel-ui
-          haxelib --quiet install hscript
-          haxelib --quiet install flixel-addons
-          haxelib --quiet install hxCodec
-          haxelib git linc_luajit https://github.com/MAJigsaw77/linc_luajit.git --quiet
-          haxelib git extension-androidtools https://github.com/randomxdp/extension-androidtools.git --quiet
-          haxelib git extension-webview https://github.com/Daninnocent/extension-webview.git --quiet
+          haxelib install flixel-tools
+          haxelib install flixel-ui
+          haxelib install hscript
+          haxelib install flixel-addons
+          haxelib git linc_luajit https://github.com/MAJigsaw77/linc_luajit
+          haxelib git extension-webview https://github.com/MatheusSilver/extension-webview --quiet
+          haxelib git extension-videoview https://github.com/MAJigsaw77/extension-videoview --quiet
+          haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools
           haxelib list
+
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
 
@@ -61,6 +71,9 @@ jobs:
           haxelib run lime config ANDROID_NDK_ROOT $ANDROID_NDK_HOME
           haxelib run lime config JAVA_HOME $JAVA_HOME
           haxelib run lime config ANDROID_SETUP true
+          haxelib set lime 7.9.0 
+          haxelib set openfl 9.1.0 
+          haxelib list
         env:
           ANDROID_NDK_HOME: ${{ steps.setup-ndk.outputs.ndk-path }}
 
@@ -70,5 +83,5 @@ jobs:
       - name: Publish Artifact
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: androidBuild
+          name: Android Build
           path: export/release/android/bin/app/build/outputs/apk/debug
